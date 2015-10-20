@@ -16,23 +16,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgm-2p-t3J">
-                                <rect key="frame" x="200" y="72" width="200" height="100"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hgm-2p-t3J">
+                                <rect key="frame" x="200" y="84" width="200" height="100"/>
+                                <state key="normal" image="us"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMJ-KV-GOV">
-                                <rect key="frame" x="200" y="223" width="200" height="100"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pr0-vL-vW6">
+                                <rect key="frame" x="200" y="324" width="200" height="100"/>
+                                <state key="normal" image="us"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VKI-50-lWb">
-                                <rect key="frame" x="200" y="377" width="200" height="100"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87v-cG-EFL">
+                                <rect key="frame" x="200" y="204" width="200" height="100"/>
+                                <state key="normal" image="us"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="hgm-2p-t3J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Paz-g4-1vm"/>
-                            <constraint firstItem="hgm-2p-t3J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wbI-qe-Aka"/>
+                            <constraint firstItem="hgm-2p-t3J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Sw-47-5gv"/>
+                            <constraint firstItem="Pr0-vL-vW6" firstAttribute="centerX" secondItem="87v-cG-EFL" secondAttribute="centerX" id="9Sn-z0-Svm"/>
+                            <constraint firstItem="87v-cG-EFL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9mD-eB-PVS"/>
+                            <constraint firstItem="hgm-2p-t3J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Paz-g4-1vm"/>
+                            <constraint firstItem="87v-cG-EFL" firstAttribute="top" secondItem="hgm-2p-t3J" secondAttribute="bottom" constant="20" id="RA1-5k-Qdg"/>
+                            <constraint firstItem="Pr0-vL-vW6" firstAttribute="top" secondItem="87v-cG-EFL" secondAttribute="bottom" constant="20" id="fFV-nC-Rh8"/>
+                            <constraint firstItem="Pr0-vL-vW6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nJU-Z3-jcc"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="HGB-T9-awn"/>
@@ -60,4 +65,7 @@
             <point key="canvasLocation" x="304" y="429"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="us" width="200" height="100"/>
+    </resources>
 </document>
