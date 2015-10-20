@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func askQuestion(){
+    func askQuestion(alertAction: UIAlertAction! = nil){
         countries = GKRandomSource.sharedRandom().arrayByShufflingObjectsInArray(countries) as! [String]
         
         button1.setImage(UIImage(named: countries[0]), forState: .Normal)
@@ -50,5 +50,22 @@ class ViewController: UIViewController {
         title = countries[correctAnswer].uppercaseString
     }
     
+    
+    @IBAction func buttonTapped(sender: UIButton) {
+        var messageTitle: String
+        
+        if sender.tag == correctAnswer{
+            messageTitle = "Correct"
+            ++score
+        } else {
+            messageTitle = "Wrong"
+            --score
+        }
+        
+        let message = "Your score is \(score)"
+        let ac = UIAlertController(title: messageTitle, message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        ac.addAction(UIAlertAction(title: "Dismiss", style: .Cancel, handler: askQuestion))
+        presentViewController(ac, animated: true, completion: nil)
+    }
 }
 
