@@ -13,6 +13,7 @@
 		D346CDC81BDA1C5C002CFADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D346CDC61BDA1C5C002CFADE /* Main.storyboard */; };
 		D346CDCA1BDA1C5C002CFADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D346CDC91BDA1C5C002CFADE /* Assets.xcassets */; };
 		D346CDCD1BDA1C5C002CFADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D346CDCB1BDA1C5C002CFADE /* LaunchScreen.storyboard */; };
+		D346CDD51BDA2604002CFADE /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D346CDD41BDA2604002CFADE /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D346CDC91BDA1C5C002CFADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D346CDCC1BDA1C5C002CFADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D346CDCE1BDA1C5C002CFADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D346CDD41BDA2604002CFADE /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				D346CDC21BDA1C5C002CFADE /* MasterViewController.swift */,
 				D346CDC41BDA1C5C002CFADE /* DetailViewController.swift */,
 				D346CDC61BDA1C5C002CFADE /* Main.storyboard */,
+				D346CDD41BDA2604002CFADE /* SwiftyJSON.swift */,
 				D346CDC91BDA1C5C002CFADE /* Assets.xcassets */,
 				D346CDCB1BDA1C5C002CFADE /* LaunchScreen.storyboard */,
 				D346CDCE1BDA1C5C002CFADE /* Info.plist */,
@@ -141,6 +144,7 @@
 				D346CDC51BDA1C5C002CFADE /* DetailViewController.swift in Sources */,
 				D346CDC31BDA1C5C002CFADE /* MasterViewController.swift in Sources */,
 				D346CDC11BDA1C5C002CFADE /* AppDelegate.swift in Sources */,
+				D346CDD51BDA2604002CFADE /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
