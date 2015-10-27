@@ -30,9 +30,21 @@ class MasterViewController: UITableViewController {
                 
                 if json["metadata"]["responseInfo"]["status"].intValue == 200{
                     parseJSON(json)
+                } else {
+                    showError()
                 }
+            } else {
+                showError()
             }
+        } else {
+            showError()
         }
+    }
+    
+    func showError(){
+        let ac = UIAlertController(title: "Loading error", message: "There was a problem with loading data, please check connection", preferredStyle: .Alert)
+        ac.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+        self.presentViewController(ac, animated: true, completion: nil)
     }
     
     func parseJSON(json: JSON){
