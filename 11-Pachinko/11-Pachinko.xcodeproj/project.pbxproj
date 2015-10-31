@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D308AD9C1BE37E8C00941439 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D308AD9B1BE37E8C00941439 /* Helper.swift */; };
 		D3F8ECB61BE35EDD0025CFEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F8ECB51BE35EDD0025CFEB /* AppDelegate.swift */; };
 		D3F8ECB81BE35EDD0025CFEB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3F8ECB71BE35EDD0025CFEB /* GameScene.sks */; };
 		D3F8ECBA1BE35EDD0025CFEB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F8ECB91BE35EDD0025CFEB /* GameScene.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D308AD9B1BE37E8C00941439 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		D3F8ECB21BE35EDC0025CFEB /* 11-Pachinko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "11-Pachinko.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3F8ECB51BE35EDD0025CFEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3F8ECB71BE35EDD0025CFEB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				D3F8ECB71BE35EDD0025CFEB /* GameScene.sks */,
 				D3F8ECB91BE35EDD0025CFEB /* GameScene.swift */,
 				D3F8ECBB1BE35EDD0025CFEB /* GameViewController.swift */,
+				D308AD9B1BE37E8C00941439 /* Helper.swift */,
 				D3F8ECBD1BE35EDD0025CFEB /* Main.storyboard */,
 				D3F8ECC01BE35EDD0025CFEB /* Assets.xcassets */,
 				D3F8ECC21BE35EDD0025CFEB /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 				D3F8ECBA1BE35EDD0025CFEB /* GameScene.swift in Sources */,
 				D3F8ECBC1BE35EDD0025CFEB /* GameViewController.swift in Sources */,
 				D3F8ECB61BE35EDD0025CFEB /* AppDelegate.swift in Sources */,
+				D308AD9C1BE37E8C00941439 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
